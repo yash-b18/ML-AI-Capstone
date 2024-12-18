@@ -60,11 +60,11 @@ Three machine learning algorithms—Logistic Regression, Decision Tree, and Rand
 #### Results
 
 <p>After building 3 types of models: Logistic Regression, Decision Tree, and Random Forest, we hyperparameter tuned these models to achieve the best result possible. As a result, the best model was Decision Tree where the best parameters for this model was a max depth of 2 and min samples split of 2. The model achieved a 0.7265 or 72.65% accuracy on test data.
-<br>
+<br><br>
 Random Forest came a close second and achieved a accuracy of 0.7150 or 71.50% accuracy on test data. Logistic Regression peformed the worst.
-<br>
+<br><br>
 Note: These models used imbalanced data
-<br>
+<br><br>
 The same models were built and hyperparameter tuned with balanced data, where the target feature has the same count, non-clicked ads and clicked ads. The results in accuracy for all models dropped. This indicates that the models that were built on imbalanced data overfitted the data and relied heavily on the majority class for predictions. A balanced dataset forces the models to learn more representative patterns for both classes. As a result, the accuracy is declined on all models, but decision tree and random forest still perform better than logistic regression.</p>
 
 #### Next steps
